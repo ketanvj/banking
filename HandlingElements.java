@@ -107,6 +107,7 @@ public class HandlingElements {
   public void onlyOnceBeforeFirstMethod() {
 		System.setProperty("webdriver.chrome.driver","C:\\temp\\webdrivertraining\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
+	  //This is added by a different user and then he pushed this code into my repository.
   }
 
   @AfterClass
