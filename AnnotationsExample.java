@@ -39,6 +39,7 @@ public class AnnotationsExample {
   @AfterClass
   public void afterClass() {
 	  System.out.println("Inside After Class");
+	  System.out.println("Inside After Class added after commit");
   }
 
 }
