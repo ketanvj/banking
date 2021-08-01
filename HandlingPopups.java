@@ -53,6 +53,7 @@ public class HandlingPopups {
 		System.out.println(parentWindowHandle);
 		driver.findElement(By.xpath("//button[text()='Contact us!']")).click();
 		Thread.sleep(3000);
+//Modified
 		try {
 			driver.switchTo().window("Contact"); //Used name of the window as parameter
 			//either window name, or window handle
